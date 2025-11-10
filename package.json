@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@types/xrm": "^9.0.87",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-merge": "^6.0.1"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.dev.js",
+    "start": "webpack --config webpack.dev.js --watch",
+    "dist": "webpack --config webpack.prod.js"
+  }
+}
+
